@@ -15,3 +15,78 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+}
+
+header {
+    font-family: fantasy;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 #a82877;
+    border-radius: 6px;
+}
+
+header.p {
+    font: size 25px;
+}
+
+h1 {
+    font-size: 32px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    float: right;
+    width: 60%
+}
+
+form {
+    width: 60%;
+    padding: 20px;
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: 0 0 20px 0 #a82877;
+    float: right;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #a82877;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #bf1e81;
+}
+
+.form-control:hover,
+.form-check-label:hover,
+input:hover::placeholder {
+    color: #a82877;
+}
+
+.form-group input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px 0 #a82877;
+    color: #a82877;
+}
+
+input[type="radio"]:checked {
+    background: #bf1e81;
+    color: #a82877;
+}
