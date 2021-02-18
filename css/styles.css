@@ -16,23 +16,13 @@ body {
     background-size: cover;
 }
 
-p {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    color: #666;
-    line-height: 22px;
-}
-
 header {
-    font-family: fantasy;
     background-color: transparent;
     color: white;
-    padding: 20px;
-    box-shadow: 0 0 20px 0 #a82877;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 gray;
     border-radius: 6px;
+    margin: 0;
 }
 
 header.p {
@@ -41,7 +31,8 @@ header.p {
 
 h1 {
     font-size: 32px;
-    color: black;
+    color: #a82877;
+    font-family: fantasy;
 }
 
 h2 {
@@ -86,7 +77,27 @@ input:hover::placeholder {
     color: #a82877;
 }
 
-input[type="radio"]:checked {
-    background: #bf1e81;
-    color: #a82877;
+fieldset {
+    border: 2px solid gray;
+    color: black;
+    box-shadow: 0 0 20px 0 gray;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+}
+
+legend {
+    text-align: center;
+    border: none;
+    width: auto;
+    display: inline;
+}
+
+.footer {
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 gray;
+    width: 100%;
+    font-weight: bold;
 }
