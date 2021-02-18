@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(/images/elephant.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
