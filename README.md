@@ -1,6 +1,6 @@
 # AKANNAME-Website
-## Author [Alvynah Wabwoba]
-(https://github.com/alvynah)
+## Author
+[Alvynah Wabwoba](https://github.com/alvynah)
 #### By **{Self}**
 ## Description
 This website takes a user's birthday and calculates the day of the week they were born and then depending on their gender, it outputs their Akan Name. Akan Names are from the Ghanain culture.
@@ -18,7 +18,7 @@ This website takes a user's birthday and calculates the day of the week they wer
 2. CSS
 3. BootStrap
 4. Markdown
-## BDD
+## Behaviour Driven Development
 ## Contact Information
 For any further inquiries or contributions or comments, reach me at (juvatalvynah@gmail.com)
 ### License
