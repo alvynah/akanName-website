@@ -5,7 +5,7 @@
 ## Description
 This website takes a user's birthday and calculates the day of the week they were born and then depending on their gender, it outputs their Akan Name. Akan Names are from the Ghanain culture.
 ## Live site 
- (https://alvynah.github.io/portfolio-website/)
+ (https://alvynah.github.io/akanName-website/)
 
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
@@ -17,7 +17,8 @@ This website takes a user's birthday and calculates the day of the week they wer
 1. HTML5
 2. CSS
 3. BootStrap
-4. Markdown
+4. Javascript
+5. Markdown
 ## Behaviour Driven Development
 ## Contact Information
 For any further inquiries or contributions or comments, reach me at (juvatalvynah@gmail.com)

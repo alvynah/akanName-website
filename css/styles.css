@@ -108,5 +108,10 @@
     @media screen and (min-width: 480px) {
         body {
             color: white;
+            background-image: url(../images/elephant.jpg);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
     }
