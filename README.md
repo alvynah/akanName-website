@@ -22,5 +22,4 @@ This website takes a user's birthday and calculates the day of the week they wer
 ## Contact Information
 For any further inquiries or contributions or comments, reach me at (juvatalvynah@gmail.com)
 ### License
-(https://github.com/alvynah/portfolio-website/blob/master/License)
-Copyright (c) {2021} 
+ [MIT License](https://github.com/alvynah/akanName-website/blob/master/License) Copyright (c) {2021} 
