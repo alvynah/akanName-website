@@ -10,9 +10,13 @@ This website takes a user's birthday and calculates the day of the week they wer
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
 * git clone https://github.com/alvynah/akanName-website.git
-
 * cd akanName-website
 * code .(for Vs Code) or atom .(for Atom)
+Ensure the following stylesheets have also be linked to you project
+* [Bootstrap 4](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css)
+* [google Fonts](https://use.fontawesome.com/releases/v5.5.0/css/all.css)
+Script CDN
+* [Javascript](https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js)
 ## Technologies Used
 1. HTML5
 2. CSS

@@ -45,45 +45,57 @@
             <br>
             <div class="col-md-6" style="text-align: center">
                 <h2>Enter Details here!!</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Full Name </label>
-                        <input type="text" class="form-control" name="name" placeholder="Enter name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="date">Date of Birth</label>
-                        <input type="date" class="form-control" name="date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="gender">Gender</label>
-                        <div class="form-group form-check">
+                <div>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name </label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date of Birth</label>
+                            <input type="date" class="form-control" name="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <div class="form-group form-check">
 
-                            <div>
-                                <input type="radio" class="form-check-input" name="gender" id="female" checked required>
-                                <label class="form-check-label" for="gender">Female</label>
-                            </div>
-                            <div>
-                                <input type="radio" class="form-check-input" name="gender" id="male" required>
-                                <label class="form-check-label" for="gender">Male</label>
+                                <div>
+                                    <input type="radio" class="form-check-input" name="gender" id="female" value="female" checked required>
+                                    <label class="form-check-label" for="gender">Female</label>
+                                </div>
+                                <div>
+                                    <input type="radio" class="form-check-input" name="gender" id="male" value="female" required>
+                                    <label class="form-check-label" for="gender">Male</label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <button type="submit" class="button" name="btn-submit" onClick="displayName()">Submit</button>
-                </form>
+                        <div>
+                            <button type="submit" class="button" name="btn-submit" onClick="getDay(event)">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <br style="clear: both">
+                <div>
+                    <fieldset>
+                        <Legend>Results</Legend>
+                        <p id="displayarea"></p>
+                    </fieldset>
+                </div>
             </div>
         </div>
 
-        <br style="clear:both">
+        <br style="clear:both ">
 
-        <div class="footer">
-            <div class="copyright" style="text-align:center">
+        <div class="footer ">
+            <div class="copyright " style="text-align:center ">
                 <p>
                     Copyright &copy 2021 All Rights Reserved,
-                    <a href="https://github.com/alvynah">ALVYNAH</a>
+                    <a href="https://github.com/alvynah "><i class="fa fa-cloud "></i> ALVYNAH</a>
                 </p>
             </div>
-            <script src="js/index.js"></script>
+
+
+            <script src="js/index.js "></script>
 </body>
 
 </html>

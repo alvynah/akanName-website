@@ -97,6 +97,16 @@
         border-radius: 10px;
     }
     
+    fieldset {
+        border: 2px solid #a82877;
+        box-shadow: 0 0 20px 0 #a82877;
+        background-color: black;
+        color: white;
+        width: 60%;
+        border-radius: 6px;
+        float: right;
+    }
+    
     .footer {
         background: transparent;
         border-radius: 6px;
