@@ -2,6 +2,12 @@ var maleName = ["kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+function getName(event) {
+    event.preventDefault;
+    let myName = document.getElementById("name").value;
+
+
+};
 
 function getDay(event) {
     event.preventDefault();
@@ -11,7 +17,6 @@ function getDay(event) {
     var compare = dayString.toString(); //convert it to string
 
     var day = days.indexOf(compare); //find index ot string day in the array days
-    console.log(day);
 
 };
 
@@ -64,14 +69,15 @@ function getGender() {
             break
         default:
 
-    };
+    }
+}
 
-    function getResults(event) {
+function getResults(event) {
 
-        event.preventDefault();
+    event.preventDefault();
 
-        let displayTag = document.getElementById("displayarea");
-        let results = "Love";
-        displayTag.innerHTML = results;
+    let displayTag = document.getElementById("displayarea");
+    let results = "Love";
+    displayTag.innerHTML = results;
 
-    };
+}
