@@ -44,38 +44,36 @@ function getGender(event) {
     switch (gender) {
         case "male":
             if (returnGetDay == 0) {
-                message = `${returnGetname}, your were born on ${days[0]}, and your Akan Name is ${maleName[0]} !`
+                message = `${returnGetname}, your were born on ${days[0]}, and your Akan Name is ${maleName[0]} !`;
             } else if (returnGetDay == 1) {
-                message = `${returnGetname}, your were born on ${days[1]}, and your Akan Name is ${maleName[1]} !`
+                message = `${returnGetname}, your were born on ${days[1]}, and your Akan Name is ${maleName[1]} !`;
             } else if (returnGetDay == 2) {
-                message = `${returnGetname}, your were born on ${days[2]}, and your Akan Name is ${maleName[2]} !`
+                message = `${returnGetname}, your were born on ${days[2]}, and your Akan Name is ${maleName[2]} !`;
             } else if (returnGetDay == 3) {
-                message = `${returnGetname}, your were born on ${days[3]}, and your Akan Name is ${maleName[3]} !`
+                message = `${returnGetname}, your were born on ${days[3]}, and your Akan Name is ${maleName[3]} !`;
             } else if (returnGetDay == 4) {
-                message = `${returnGetname}, your were born on ${days[4]}, and your Akan Name is ${maleName[4]} !`
+                message = `${returnGetname}, your were born on ${days[4]}, and your Akan Name is ${maleName[4]} !`;
             } else if (returnGetDay == 5) {
-                message = `${returnGetname}, your were born on ${days[5]}, and your Akan Name is ${maleName[5]} !`
-            } else if (returnGetDay == 6) {
-                message = `${returnGetname}, your were born on ${days[6]}, and your Akan Name is ${maleName[6]} !`
+                message = `${returnGetname}, your were born on ${days[5]}, and your Akan Name is ${maleName[5]} !`;
             } else {
-                return false;
+                message = `${returnGetname}, your were born on ${days[6]}, and your Akan Name is ${maleName[6]} !`;
             }
             break;
-        case "famale":
+        case "female":
             if (returnGetDay == 0) {
-                message = `${returnGetname}, your were born on ${days[0]}, and your Akan Name is ${femaleName[0]} !`
+                message = `${returnGetname}, your were born on ${days[0]}, and your Akan Name is ${femaleName[0]} !`;
             } else if (returnGetDay == 1) {
-                message = `${returnGetname}, your were born on ${days[1]}, and your Akan Name is ${femaleName[1]} !`
+                message = `${returnGetname}, your were born on ${days[1]}, and your Akan Name is ${femaleName[1]} !`;
             } else if (returnGetDay == 2) {
-                message = `${returnGetname}, your were born on ${days[2]}, and your Akan Name is ${femaleName[2]} !`
+                message = `${returnGetname}, your were born on ${days[2]}, and your Akan Name is ${femaleName[2]} !`;
             } else if (returnGetDay == 3) {
-                message = `${returnGetname}, your were born on ${days[3]}, and your Akan Name is ${femaleName[3]} !`
+                message = `${returnGetname}, your were born on ${days[3]}, and your Akan Name is ${femaleName[3]} !`;
             } else if (returnGetDay == 4) {
-                message = `${returnGetname}, your were born on ${days[4]}, and your Akan Name is ${femaleName[4]} !`
+                message = `${returnGetname}, your were born on ${days[4]}, and your Akan Name is ${femaleName[4]} !`;
             } else if (returnGetDay == 5) {
-                message = `${returnGetname}, your were born on ${days[5]}, and your Akan Name is ${femaleName[5]} !`
+                message = `${returnGetname}, your were born on ${days[5]}, and your Akan Name is ${femaleName[5]} !`;
             } else if (returnGetDay == 6) {
-                message = `${returnGetname}, your were born on ${days[6]}, and your Akan Name is ${femaleName[6]} !`
+                message = `${returnGetname}, your were born on ${days[6]}, and your Akan Name is ${femaleName[6]} !`;
             } else {
                 return false;
             }
