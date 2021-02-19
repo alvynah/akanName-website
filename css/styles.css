@@ -30,11 +30,11 @@
     }
     
     h1 {
-        font-size: 32px;
+        font-size: 40px;
         color: #a82877;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: center;
-        text-decoration: underline;
+        text-shadow: #fff;
     }
     
     h2 {
@@ -46,7 +46,8 @@
     h3 {
         text-align: left;
         float: left;
-        width: 100%
+        width: 100%;
+        color: #a82877;
     }
     
     form {
@@ -85,15 +86,16 @@
         color: #a82877;
     }
     
-    fieldset {
+    .card {
         border-top: 2px solid #a82877;
         color: white;
         background-color: black;
-        box-shadow: 0 0 20px 0#a82877;
+        box-shadow: 0 0 20px 0 #a82877;
         font-size: 20px;
         font-weight: bold;
         width: 100%;
         border-radius: 10px;
+        backface-visibility: visible;
     }
     
     .footer {
