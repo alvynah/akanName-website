@@ -12,10 +12,12 @@ This website takes a user's birthday and calculates the day of the week they wer
 * git clone https://github.com/alvynah/akanName-website.git
 * cd akanName-website
 * code .(for Vs Code) or atom .(for Atom)
-Ensure the following stylesheets have also be linked to you project
+
+1. Ensure the following stylesheets have also be linked to you project
 * [Bootstrap 4](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css)
 * [google Fonts](https://use.fontawesome.com/releases/v5.5.0/css/all.css)
-Script CDN
+
+2. Script CDN
 * [Javascript](https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js)
 ## Technologies Used
 1. HTML5
@@ -25,6 +27,6 @@ Script CDN
 5. Markdown
 ## Behaviour Driven Development
 ## Contact Information
-For any further inquiries or contributions or comments, reach me at (juvatalvynah@gmail.com)
+For any further inquiries or contributions or comments, reach me at [Alvynah](juvatalvynah@gmail.com)
 ### License
  [MIT License](https://github.com/alvynah/akanName-website/blob/master/License) Copyright (c) {2021} 
