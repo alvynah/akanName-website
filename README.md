@@ -7,7 +7,7 @@ This website takes a user's birthday and calculates the day of the week they wer
 ## Live site 
  (https://alvynah.github.io/akanName-website/)
  ## Screenshot of Website
-
+ ! [Screenshot of website](images/Screenshot.png)
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
 * git clone https://github.com/alvynah/akanName-website.git
