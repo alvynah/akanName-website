@@ -5,17 +5,14 @@ var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 function validateForm() {
     if (document.myForm.name.value == "") {
         alert("Please provide your name!");
-        document.myForm.name.focus();
         return false;
     }
     if (document.myForm.date.value == "") {
         alert("Please provide your Birthday!");
-        document.myForm.date.focus();
         return false;
     }
     if (document.myForm.gender.value == "") {
         alert("Please provide your Gender!");
-        document.myForm.gender.focus();
         return false;
     }
     return true;
