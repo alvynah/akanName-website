@@ -23,7 +23,7 @@ This website takes a user's birthday and calculates the day of the week they wer
 1. HTML5
 2. CSS
 3. BootStrap
-4. Javascript
+4. JavaScript
 5. Markdown
 ## Behaviour Driven Development
 ## Contact Information

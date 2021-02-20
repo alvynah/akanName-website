@@ -2,7 +2,24 @@ var maleName = ["kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-
+function validateForm() {
+    if (document.myForm.name.value == "") {
+        alert("Please provide your name!");
+        document.myForm.name.focus();
+        return false;
+    }
+    if (document.myForm.date.value == "") {
+        alert("Please provide your Birthday!");
+        document.myForm.date.focus();
+        return false;
+    }
+    if (document.myForm.gender.value == "") {
+        alert("Please provide your Gender!");
+        document.myForm.gender.focus();
+        return false;
+    }
+    return true;
+}
 
 function getName(event) {
     event.preventDefault();
@@ -87,6 +104,7 @@ function getGender(event) {
 function getResults(event) {
 
     event.preventDefault();
+    var validate = validateForm();
     var results = getGender(event);
     let displayTag = document.getElementById("displayarea");
     displayTag.innerHTML = results;
