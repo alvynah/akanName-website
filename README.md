@@ -33,6 +33,7 @@ INPUTS
 3. Gender -> Select from radio buttons(male or female)
 
 BEHAVIOUR
+
 User inputs name, selects birthday and gender then clicks on the submit button.On submit,validation is done first,then results are displayed on the results area.
 
 Validation
