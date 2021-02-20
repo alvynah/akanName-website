@@ -9,6 +9,7 @@
     body {
         background-color: black;
         color: white;
+        font-family: Verdana, Arial, Tahoma, Serif;
         background-image: url(../images/elephant.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
