@@ -52,7 +52,7 @@ function getGender(event) {
             } else if (returnGetDay == 3) {
                 message = `${returnGetname}, you were born on ${days[3]}nesday, and your Akan Name is ${maleName[3]} !`;
             } else if (returnGetDay == 4) {
-                message = `${returnGetname}, you were born on ${days[4]}sday, and your Akan Name is ${maleName[4]} !`;
+                message = `${returnGetname}, you were born on ${days[4]}rsday, and your Akan Name is ${maleName[4]} !`;
             } else if (returnGetDay == 5) {
                 message = `${returnGetname}, you were born on ${days[5]}day, and your Akan Name is ${maleName[5]} !`;
             } else {
@@ -69,7 +69,7 @@ function getGender(event) {
             } else if (returnGetDay == 3) {
                 message = `${returnGetname}, you were born on ${days[3]}nesday, and your Akan Name is ${femaleName[3]} !`;
             } else if (returnGetDay == 4) {
-                message = `${returnGetname}, you were born on ${days[4]}sday, and your Akan Name is ${femaleName[4]} !`;
+                message = `${returnGetname}, you were born on ${days[4]}rsday, and your Akan Name is ${femaleName[4]} !`;
             } else if (returnGetDay == 5) {
                 message = `${returnGetname}, you were born on ${days[5]}day, and your Akan Name is ${femaleName[5]} !`;
             } else if (returnGetDay == 6) {
